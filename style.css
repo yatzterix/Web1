@@ -1,0 +1,45 @@
+.header {
+    height: 80vh;
+    background-image: linear-gradient(to right bottom, rgba(16, 226, 187, 0.74), rgba(139, 216, 68, 0.8)), url("../stock/back_1.jpeg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    /*border-radius: 0 0 75% 75% / 40%;*/
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
+}
+
+.brands {
+    height: 90vh;
+    background-image: linear-gradient(to right bottom, rgba(16, 226, 187, 0.74), rgba(139, 216, 68, 0.8)), url("../stock/back_2.jpeg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+ul.check {
+    list-style-image: url("../stock/li-check.png");
+}
+
+.check li {
+    padding: 25px;
+}
+
+
+/* CUSTOM CSS */
+
+.navbar-item img {
+    max-height: 5.75rem !important;
+}
+
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+    background-color: transparent !important;
+    color: #fff;
+}
