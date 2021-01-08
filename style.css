@@ -1,6 +1,6 @@
 .header {
     height: 80vh;
-    background-image: linear-gradient(to right bottom, rgba(16, 226, 187, 0.74), rgba(139, 216, 68, 0.8)), url("../stock/back_1.jpeg");
+    background-image: linear-gradient(to right bottom, rgba(16, 226, 187, 0.74), rgba(139, 216, 68, 0.8)), url("stock/back_1.jpeg");
     background-size: cover;
     background-position: top;
     position: relative;
@@ -11,14 +11,14 @@
 
 .brands {
     height: 90vh;
-    background-image: linear-gradient(to right bottom, rgba(16, 226, 187, 0.74), rgba(139, 216, 68, 0.8)), url("../stock/back_2.jpeg");
+    background-image: linear-gradient(to right bottom, rgba(16, 226, 187, 0.74), rgba(139, 216, 68, 0.8)), url("stock/back_2.jpeg");
     background-size: cover;
     background-position: top;
     position: relative;
 }
 
 ul.check {
-    list-style-image: url("../stock/li-check.png");
+    list-style-image: url("stock/li-check.png");
 }
 
 .check li {
